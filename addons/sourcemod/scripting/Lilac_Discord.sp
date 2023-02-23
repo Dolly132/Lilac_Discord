@@ -83,6 +83,8 @@ public void lilac_cheater_detected(int client, int cheat_type, char[] sLine)
 		publicAddr.GetString(ip, sizeof(ip));
 	}
 	
+	delete publicAddr;
+	
 	int port = FindConVar("hostport").IntValue;
 	
 	char connect[128];
