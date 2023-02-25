@@ -3,6 +3,7 @@
 #include <lilac>
 
 #define PLUGIN_NAME "Lilac_Discord"
+#define STEAM_API_CVAR "lilac_steam_api"
 
 #include <relay_helper>
 
